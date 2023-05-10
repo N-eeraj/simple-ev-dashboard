@@ -4,21 +4,13 @@
         "images": [],
         "range": 105,
         "chargeTime": 6.5,
-        "topSpeed": 90,
-        "tyrePressure": [
-            30,
-            32
-        ]
+        "topSpeed": 90
     },
     {
         "model": "Ola S1",
         "images": [],
         "range": 141,
         "chargeTime": 5.5,
-        "topSpeed": 95,
-        "tyrePressure": [
-            33,
-            33
-        ]
+        "topSpeed": 95
     }
 ]
