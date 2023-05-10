@@ -10,9 +10,11 @@ const randInt = (floor, ceil) => {
     return randFloat(floor, ceil, 0)
 }
 
+const randomFromArray = array => array[randInt(0, array.length - 1)]
+
 export const randomData = () => {
     // get details from data using a random index
-    const details = data[randInt(0, data.length - 1)]
+    const details = randomFromArray(data)
 
     // function to get x percentage of top speed
     const getSpeed = percentage => Math.round(percentage * details.topSpeed * 0.01)
@@ -26,6 +28,8 @@ export const randomData = () => {
 
     // get random tyre pressures
     const tyrePressures = Array.from(Array(2), () => randInt(30, 100))
+    // get random image
+    const image = randomFromArray(details.images)
 
     // get random odo-meter reading
     const odo = randFloat(100, 50_000, 1)
@@ -41,6 +45,7 @@ export const randomData = () => {
     // create object with all data
     const randomDetails = {
         model: details.model,
+        image,
         charge: {
             percentage,
             range,

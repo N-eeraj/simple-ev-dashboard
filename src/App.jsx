@@ -1,12 +1,15 @@
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import { randomData } from './useRandomData'
 
 const App = () => {
-  useEffect(randomData, [])
+  const [data, setData] = useState(null)
+  useEffect(() => setData(randomData()), [])
 
   return (
     <>
-
+      <img
+        src={`/images/${data?.image}`}
+        alt={data?.model} />
     </>
   )
 }

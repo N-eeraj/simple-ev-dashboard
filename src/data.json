@@ -1,16 +1,50 @@
 [
     {
         "model": "Ather 450 X",
-        "images": [],
+        "images": [
+            "ather/cosmic-black.png",
+            "ather/lunar-grey.png",
+            "ather/salt-green.png",
+            "ather/space-grey.png",
+            "ather/true-red.png",
+            "ather/white.png"
+        ],
         "range": 105,
         "chargeTime": 6.5,
         "topSpeed": 90
     },
     {
-        "model": "Ola S1",
-        "images": [],
-        "range": 141,
-        "chargeTime": 5.5,
-        "topSpeed": 95
+        "model": "TVS iQube",
+        "images": [
+            "iqube/pearl-white.png",
+            "iqube/racing-red.png",
+            "iqube/titanium-grey.png"
+        ],
+        "range": 100,
+        "chargeTime": 6.5,
+        "topSpeed": 78
+    },
+    {
+        "model": "Revolt RV 400",
+        "images": [
+            "revolt/cosmic-black.png",
+            "revolt/mist-grey.png",
+            "revolt/rebel-red.png"
+        ],
+        "range": 150,
+        "chargeTime": 4.5,
+        "topSpeed": 85
+    },
+    {
+        "model": "SVM Prana",
+        "images": [
+            "prana/black.png",
+            "prana/green.png",
+            "prana/red.png",
+            "prana/white.png"
+        ],
+        "range": 225,
+        "chargeTime": 6.5,
+        "topSpeed": 123
     }
 ]
