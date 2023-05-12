@@ -6,11 +6,11 @@ const TyrePressure = ({ percentage }) => {
 
     const status = (() => {
         let value, shadow
-        if (percentage < 50) {
+        if (percentage < 60) {
             value = 'value-low',
             shadow = `drop-shadow-[0_0_7px_#F55]`
         }
-        else if (percentage < 75) {
+        else if (percentage < 80) {
             value = 'value-med',
             shadow = `drop-shadow-[0_0_7px_#FF7]`
         }

@@ -2,7 +2,7 @@ import TyrePressure from './TyrePressure'
 
 const Vehicle = ({ model, image, tyrePressures }) => {
     return (
-        <section className="flex flex-col justify-center items-center gap-y-6 h-full w-screen md:w-3/5 p-10">
+        <section className="flex flex-col justify-center items-center gap-y-6 h-full w-screen md:w-3/5 p-4 md:p-10">
             <span className="self-end text-font-dark text-3xl">
                 {model}
             </span>

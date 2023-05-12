@@ -10,8 +10,8 @@ const App = () => {
 
   return (
     data &&
-    <main className="flex flex-wrap items-center w-screen min-h-screen bg-primary">
-      <section className="w-screen md:w-2/5 p-6">
+    <main className="flex flex-col-reverse md:flex-row flex-wrap items-center w-screen min-h-screen bg-primary">
+      <section className="w-screen md:w-2/5 px-4 pb-5 md:p-6">
         <Stats stats={data.stats} />
       </section>
 
