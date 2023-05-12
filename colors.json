@@ -1,0 +1,18 @@
+{
+  "primary": "#122334",
+  "secondary": "#344556",
+  "font": {
+    "white": "#FFF",
+    "dark": "#FFF7"
+  },
+  "value": {
+    "low": "#FF5555",
+    "med": "#FFFF77",
+    "high": "#33FFAA"
+  },
+  "gradient": {
+    "green": "#0FA",
+    "cyan": "#0CF",
+    "blue": "#07F"
+  }
+}
