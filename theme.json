@@ -7,9 +7,9 @@
     "dark": "#FFF7"
   },
   "value": {
-    "low": "#FF5555",
-    "med": "#FFFF77",
-    "high": "#33FFAA"
+    "low": "#F55",
+    "med": "#FF7",
+    "high": "#3FA"
   },
   "gradient": {
     "green": "#0FA",
