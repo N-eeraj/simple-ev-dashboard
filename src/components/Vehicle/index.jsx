@@ -10,12 +10,12 @@ const Vehicle = ({ model, image, tyrePressures }) => {
             <img
                 src={`images/${image}`}
                 alt={model}
-                className="w-full max-w-[80%]" />
+                className="w-full md:max-w-[80%]" />
 
-            <div className="flex justify-between items-center w-[90%]">
+            <div className="flex justify-between items-center md:w-[90%]">
                 <TyrePressure percentage={tyrePressures[0]} />
 
-                <span className="text-font-dark text-2xl">
+                <span className="text-font-dark text-2xl text-center">
                     Tyre Pressure
                 </span>
 

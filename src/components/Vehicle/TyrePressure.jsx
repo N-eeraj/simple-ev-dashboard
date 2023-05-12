@@ -1,6 +1,6 @@
 const TyrePressure = ({ percentage }) => {
     const doughnutStyle = {
-        strokeDashoffset: `${220 - percentage * 2.2}%`,
+        strokeDashoffset: `${220 - percentage * 2}%`,
         strokeDasharray: '220%'
     }
 
