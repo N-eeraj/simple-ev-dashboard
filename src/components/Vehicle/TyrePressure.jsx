@@ -31,7 +31,7 @@ const TyrePressure = ({ percentage }) => {
                 <strong className="text-font-white text-2xl">
                     {percentage}
                 </strong>
-                <span className="text-font-dark text-sm">
+                <span className="text-font-dark text-md">
                     %
                 </span>
             </div>
