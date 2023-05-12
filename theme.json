@@ -1,8 +1,9 @@
 {
-  "primary": "#122334",
-  "secondary": "#344556",
+  "primary": "#123456",
+  "secondary": "#357",
   "font": {
     "white": "#FFF",
+    "med": "#FFFD",
     "dark": "#FFF7"
   },
   "value": {
