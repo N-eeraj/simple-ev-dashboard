@@ -15,7 +15,7 @@ const Charge = ({ details }) => {
                 </span>
             </div>
 
-            <div className="flex justify-between">
+            <div className="flex justify-between px-4">
                 <Range range={details.range} />
                 <Battery charge={details.percentage} />
             </div>
