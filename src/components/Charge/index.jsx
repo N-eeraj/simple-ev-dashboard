@@ -4,7 +4,7 @@ import Battery from './Battery'
 
 const Charge = ({ details }) => {
     return (
-        <div>
+        <div className="flex flex-col gap-5">
             <div className="flex justify-between text-font-dark text-xl">
                 <span>
                     Range
