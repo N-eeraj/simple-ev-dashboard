@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { randomData } from './useRandomData'
 
 import Vehicle from './components/Vehicle'
+import Charge from './components/Charge'
 import Stats from './components/Stats'
 
 const App = () => {
@@ -11,7 +12,8 @@ const App = () => {
   return (
     data &&
     <main className="flex flex-col-reverse md:flex-row flex-wrap items-center w-screen min-h-screen bg-primary">
-      <section className="w-screen md:w-2/5 px-4 pb-5 md:p-6">
+      <section className="flex flex-col gap-y-6 w-screen md:w-2/5 px-4 pb-5 md:p-6">
+        <Charge details={data.charge} />
         <Stats stats={data.stats} />
       </section>
 
