@@ -1,6 +1,6 @@
 const Stats = ({ label, value, unit, className }) => {
     return (
-        <div className={`flex flex-col justify-between h-[125px] p-2 bg-secondary rounded-md ${className}`}>
+        <div className={`flex flex-col justify-between h-[125px] p-2 bg-secondary rounded-lg ${className}`}>
             <span className="text-font-dark text-md">
                 {label}
             </span>

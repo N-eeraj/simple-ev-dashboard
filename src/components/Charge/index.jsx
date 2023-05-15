@@ -1,6 +1,7 @@
 import ThunderIcon from './ThunderIcon'
 import Range from './Range'
 import Battery from './Battery'
+import Alert from './Alert'
 
 const Charge = ({ details }) => {
     return (
@@ -21,6 +22,8 @@ const Charge = ({ details }) => {
                     charge={details.percentage}
                     isCharging={details.isCharging} />
             </div>
+
+            <Alert details={details} />
         </div>
     )
 }
