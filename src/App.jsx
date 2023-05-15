@@ -11,8 +11,8 @@ const App = () => {
 
   return (
     data &&
-    <main className="flex flex-col-reverse md:flex-row flex-wrap items-center w-screen min-h-screen bg-primary">
-      <section className="flex flex-col gap-y-6 w-screen md:w-2/5 px-4 pb-5 md:p-6">
+    <main className="flex flex-col-reverse md:flex-row flex-wrap items-center w-screen max-w-[1800px] min-h-screen mx-auto bg-primary">
+      <section className="flex flex-col gap-y-8 w-screen md:w-2/5 px-4 pb-5 md:p-6">
         <Charge details={data.charge} />
         <Stats stats={data.stats} />
       </section>

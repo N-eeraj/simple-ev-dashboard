@@ -9,7 +9,6 @@ const Alert = ({ details }) => {
 
     const message = () => {
         let icon, text
-        console.log(details);
         if (details.isCharging) {
             if (details.percentage === 100) {
                 text = 'Charging completed'
@@ -29,7 +28,7 @@ const Alert = ({ details }) => {
 
     return (
         message().text &&
-        <div className="p-3 rounded-lg bg-secondary text-font-dark">
+        <div className="flex items-center gap-x-2 p-3 rounded-lg bg-secondary text-font-dark">
             <Icon icon={message().icon} />
 
             <span>
