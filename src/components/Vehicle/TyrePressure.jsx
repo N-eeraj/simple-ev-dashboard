@@ -5,24 +5,21 @@ const TyrePressure = ({ percentage }) => {
     }
 
     const status = (() => {
-        let value, shadow
+        let stroke, shadow
         if (percentage < 60) {
-            value = 'value-low',
+            stroke = 'stroke-value-low',
             shadow = `drop-shadow-[0_0_7px_#F55]`
         }
         else if (percentage < 80) {
-            value = 'value-med',
+            stroke = 'stroke-value-med',
             shadow = `drop-shadow-[0_0_7px_#FF7]`
         }
         else {
-            value = 'value-high',
+            stroke = 'stroke-value-high',
             shadow = `drop-shadow-[0_0_7px_#3FA]`
         }
 
-        return {
-            stroke: `stroke-${value}`,
-            shadow
-        }
+        return { stroke, shadow }
     })()
 
     return (

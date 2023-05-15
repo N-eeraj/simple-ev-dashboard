@@ -8,7 +8,10 @@ export default {
   ],
   theme: {
     extend: {
-      colors
+      colors,
+      animation: {
+        'charging': 'pulse 1s ease-out infinite, ping 2s ease-out infinite',
+      }
     }
   },
   plugins: [],
