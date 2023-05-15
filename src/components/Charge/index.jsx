@@ -9,7 +9,7 @@ const Charge = ({ details }) => {
                 <span>
                     Range
                 </span>
-                <ThunderIcon />
+                <ThunderIcon isCharging={details.isCharging} />
                 <span>
                     Charge
                 </span>
