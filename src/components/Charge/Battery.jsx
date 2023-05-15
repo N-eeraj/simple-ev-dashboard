@@ -4,12 +4,13 @@ const Battery = ({ charge }) => {
             <div
                 className="content-[''] absolute left-0 bottom-0 w-full rounded-md bg-gradient-to-b from-gradient-cyan to-gradient-blue"
                 style={{height: `${charge}%`}}>
-                </div>
-            <div className="absolute z-10">
-                <span>
+            </div>
+
+            <div className="absolute flex flex-col justify-center items-center w-full h-full text-font-white">
+                <span className="text-6xl">
                     {charge}
                 </span>
-                <span>
+                <span className="text-3xl">
                     %
                 </span>
             </div>
